@@ -12,7 +12,7 @@ def magia_numerica(lista):
 
 
 if __name__ == "__main__":
-    lista = [1, 2, 3, 4, 5, 6, 6, 7, 8, 8]
+    lista = [1, 1, 3, 4, 5, 6, 6, 7, 8, 8]
     print(f"Lista original: {lista}")
     resultado = magia_numerica(lista)
     print(f"Lista procesada: {resultado}")
