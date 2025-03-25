@@ -1,4 +1,6 @@
 def magia_numerica(lista):
+    '''Crea una nueva lista con la suma de los números pares de la lista original
+    y los números pares ordenados de mayor a menor.'''
     lista_sin_duplicados = list(set(lista))
     lista_ordenada = sorted(lista_sin_duplicados, reverse=True)
     lista_pares = [num for num in lista_ordenada if num % 2 == 0]
